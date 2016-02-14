@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7B535F1C703481007C777D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B535E1C703481007C777D /* AppDelegate.swift */; };
+		DD7B53611C703481007C777D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7B53601C703481007C777D /* Assets.xcassets */; };
+		DD7B53641C703481007C777D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7B53621C703481007C777D /* MainMenu.xib */; };
+		DD7B536E1C7034D8007C777D /* SHPrivilegedKiller.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7B536D1C7034D8007C777D /* SHPrivilegedKiller.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		DD7B53721C70397D007C777D /* SHKiller.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7B53711C70397D007C777D /* SHKiller.m */; };
+		DD7B53751C703A84007C777D /* Shinigami.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B53741C703A84007C777D /* Shinigami.swift */; };
+		DD7B537B1C703CBB007C777D /* MenuExtraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B537A1C703CBB007C777D /* MenuExtraController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD7B535B1C703481007C777D /* Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7B535E1C703481007C777D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD7B53601C703481007C777D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7B53631C703481007C777D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD7B53651C703481007C777D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7B536B1C7034D8007C777D /* Killer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Killer-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD7B536C1C7034D8007C777D /* SHPrivilegedKiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPrivilegedKiller.h; sourceTree = "<group>"; };
+		DD7B536D1C7034D8007C777D /* SHPrivilegedKiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHPrivilegedKiller.m; sourceTree = "<group>"; };
+		DD7B53701C70397D007C777D /* SHKiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKiller.h; sourceTree = "<group>"; };
+		DD7B53711C70397D007C777D /* SHKiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKiller.m; sourceTree = "<group>"; };
+		DD7B53741C703A84007C777D /* Shinigami.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shinigami.swift; sourceTree = "<group>"; };
+		DD7B537A1C703CBB007C777D /* MenuExtraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuExtraController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7B53581C703481007C777D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7B53521C703481007C777D = {
+			isa = PBXGroup;
+			children = (
+				DD7B535D1C703481007C777D /* Killer */,
+				DD7B535C1C703481007C777D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7B535C1C703481007C777D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B535B1C703481007C777D /* Killer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7B535D1C703481007C777D /* Killer */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B53791C703C9B007C777D /* Controllers */,
+				DD7B53731C703A79007C777D /* Model */,
+				DD7B536F1C7036E0007C777D /* Core */,
+				DD7B53781C703C77007C777D /* Resources */,
+				DD7B535E1C703481007C777D /* AppDelegate.swift */,
+			);
+			path = Killer;
+			sourceTree = "<group>";
+		};
+		DD7B536F1C7036E0007C777D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B536B1C7034D8007C777D /* Killer-Bridging-Header.h */,
+				DD7B53701C70397D007C777D /* SHKiller.h */,
+				DD7B53711C70397D007C777D /* SHKiller.m */,
+				DD7B536C1C7034D8007C777D /* SHPrivilegedKiller.h */,
+				DD7B536D1C7034D8007C777D /* SHPrivilegedKiller.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DD7B53731C703A79007C777D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B53741C703A84007C777D /* Shinigami.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DD7B53781C703C77007C777D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B53601C703481007C777D /* Assets.xcassets */,
+				DD7B53621C703481007C777D /* MainMenu.xib */,
+				DD7B53651C703481007C777D /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DD7B53791C703C9B007C777D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD7B537A1C703CBB007C777D /* MenuExtraController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7B535A1C703481007C777D /* Killer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7B53681C703481007C777D /* Build configuration list for PBXNativeTarget "Killer" */;
+			buildPhases = (
+				DD7B53571C703481007C777D /* Sources */,
+				DD7B53581C703481007C777D /* Frameworks */,
+				DD7B53591C703481007C777D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Killer;
+			productName = Killer;
+			productReference = DD7B535B1C703481007C777D /* Killer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7B53531C703481007C777D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DD7B535A1C703481007C777D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DD7B53561C703481007C777D /* Build configuration list for PBXProject "Killer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7B53521C703481007C777D;
+			productRefGroup = DD7B535C1C703481007C777D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7B535A1C703481007C777D /* Killer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7B53591C703481007C777D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7B53611C703481007C777D /* Assets.xcassets in Resources */,
+				DD7B53641C703481007C777D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7B53571C703481007C777D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7B53721C70397D007C777D /* SHKiller.m in Sources */,
+				DD7B536E1C7034D8007C777D /* SHPrivilegedKiller.m in Sources */,
+				DD7B535F1C703481007C777D /* AppDelegate.swift in Sources */,
+				DD7B53751C703A84007C777D /* Shinigami.swift in Sources */,
+				DD7B537B1C703CBB007C777D /* MenuExtraController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD7B53621C703481007C777D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7B53631C703481007C777D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7B53661C703481007C777D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7B53671C703481007C777D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD7B53691C703481007C777D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Killer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.Killer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Killer/Killer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7B536A1C703481007C777D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Killer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.Killer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Killer/Killer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7B53561C703481007C777D /* Build configuration list for PBXProject "Killer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7B53661C703481007C777D /* Debug */,
+				DD7B53671C703481007C777D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7B53681C703481007C777D /* Build configuration list for PBXNativeTarget "Killer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7B53691C703481007C777D /* Debug */,
+				DD7B536A1C703481007C777D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7B53531C703481007C777D /* Project object */;
+}
