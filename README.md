@@ -11,4 +11,4 @@ Currently supports:
 
 This is **WORK IN PROGRESS**: I have plenty of features I plan on implementing but this is what I had the time to do for now. Feel free to send me pull requests :)
 
-![screenshot](https://raw.githubusercontent.com/insidegui/Killer/master/screenshots/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/insidegui/Killerapp/master/screenshots/screenshot.png)
